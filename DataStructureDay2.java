@@ -9,10 +9,10 @@ public class Day11 {
 		int[] arr = { 1, 2, 4, 6, 7, 9, 5, 3, 1, 6, 5, 7, 9, 3, 1, 6 };
 
 		System.out.println(findOddTimesAppearNum(arr));
-		System.out.println(findSquare(2, 16));
+		System.out.println(findSquareInt(2, 16));
 	}
 
-	public static ArrayList<Integer> findSquare(int a, int b) {
+	public static ArrayList<Integer> findSquareInt(int a, int b) {
 		ArrayList<Integer> allSqrtValue = new ArrayList<Integer>();
 		double square = 0;
 		for (int i = a; i <= b; i++) {
